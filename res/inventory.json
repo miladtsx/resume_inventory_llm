@@ -1,0 +1,1973 @@
+{
+  "schema_version": "1.4.3",
+  "document_type": "base_resume_inventory",
+  "owner": {
+    "name": "MILAD TSX",
+    "contact": {
+      "email": "miladtsx@gmail.com",
+      "github": "https://github.com/miladtsx",
+      "website": "https://miladtsx.github.io/terminal/"
+    },
+    "location": {
+      "timezone": "UTC+3",
+      "country": "Iran",
+      "nationality": "Iranian",
+      "open_to_relocation": true
+    }
+  },
+  "controlled_vocabulary": {
+    "tags": [
+      "backend",
+      "fullstack",
+      "infra",
+      "security",
+      "reliability",
+      "performance",
+      "product",
+      "blockchain",
+      "web3",
+      "data",
+      "fraud",
+      "ux",
+      "stakeholder",
+      "compliance",
+      "enablement",
+      "incident",
+      "networking",
+      "research",
+      "ai",
+      "ai_agents",
+      "automation",
+      "documentation",
+      "devops",
+      "refactoring",
+      "observability",
+      "caching"
+    ],
+    "claim_types": ["fact", "metric", "qualitative"],
+    "confidence_levels": ["high", "medium", "low"],
+    "evidence_types": ["link", "repo", "document", "internal_note", "none"],
+    "employment_types": [
+      "full_time",
+      "part_time",
+      "contract",
+      "freelance",
+      "fractional",
+      "founder",
+      "advisor",
+      "research"
+    ],
+    "role_levels": ["junior", "mid", "senior", "lead", "principal"]
+  },
+  "titles": {
+    "options": [
+      {
+        "id": "title_backend",
+        "value": "Senior Backend Engineer – Systems Reliability & Security",
+        "tags": ["backend", "reliability", "security"]
+      },
+      {
+        "id": "title_fullstack",
+        "value": "Senior Full Stack Engineer – From Idea to Production",
+        "tags": ["fullstack", "product", "ux"]
+      }
+    ]
+  },
+  "summary_bank": {
+    "items": [
+      {
+        "id": "sum_01",
+        "text": "Senior engineer taking products from vague idea to reliable production systems.",
+        "tags": ["fullstack", "product", "stakeholder"],
+        "claim_type": "qualitative",
+        "confidence": "high",
+        "evidence": {
+          "type": "none",
+          "ref": ""
+        }
+      },
+      {
+        "id": "sum_02",
+        "text": "Built/operated backends handling real money and high concurrency; focuses on predictability over time.",
+        "tags": ["backend", "reliability"],
+        "claim_type": "qualitative",
+        "confidence": "high",
+        "evidence": {
+          "type": "none",
+          "ref": ""
+        }
+      },
+      {
+        "id": "sum_03",
+        "text": "Experience safeguarding ~$4M client assets on-chain with zero security incidents.",
+        "tags": ["backend", "security", "web3"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "VENT:assets_and_incidents"
+        }
+      },
+      {
+        "id": "sum_04",
+        "text": "Cost-focused: simplified/right-sized AWS to cut spend ~60% without hurting performance.",
+        "tags": ["infra", "performance"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "VENT:aws_cost_reduction"
+        }
+      },
+      {
+        "id": "sum_05",
+        "text": "Scaled real-time backend throughput ~10× for thousands of concurrent users.",
+        "tags": ["backend", "performance"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "Revision:throughput_scaling"
+        }
+      },
+      {
+        "id": "sum_06",
+        "text": "Works well with founders, product, auditors, and non-technical stakeholders; documents systems for reuse.",
+        "tags": ["stakeholder", "compliance", "documentation"],
+        "claim_type": "qualitative",
+        "confidence": "high",
+        "evidence": {
+          "type": "none",
+          "ref": ""
+        }
+      },
+      {
+        "id": "sum_07",
+        "text": "Emphasis on clean UX layered on top of robust, secure, cost-efficient backends.",
+        "tags": ["fullstack", "ux"],
+        "claim_type": "qualitative",
+        "confidence": "high",
+        "evidence": {
+          "type": "none",
+          "ref": ""
+        }
+      },
+      {
+        "id": "sum_08",
+        "text": "Programming since 2011.",
+        "tags": ["fullstack", "backend"],
+        "claim_type": "fact",
+        "confidence": "high",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "personal_timeline_2011_high_school"
+        }
+      },
+      {
+        "id": "sum_09",
+        "text": "Professional production work since Oct 2018 (7+ years).",
+        "tags": ["fullstack", "backend"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "professional_start_2018_10"
+        }
+      }
+    ]
+  },
+  "outcomes_bank": {
+    "items": [
+      {
+        "id": "out_01",
+        "text": "Shipped multiple MVPs from idea → production as founding engineer/technical founder.",
+        "tags": ["fullstack", "product", "stakeholder"],
+        "claim_type": "qualitative",
+        "confidence": "high",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "BugDasht:idea_to_live; Khavar:mvp_3_months; BBB:demo_10_days"
+        },
+        "sources": ["exp_bugdasht", "proj_khavar", "proj_bbb"]
+      },
+      {
+        "id": "out_02",
+        "text": "Built full stack web applications (frontend + backend + infra) used by real users in production.",
+        "tags": ["fullstack", "infra"],
+        "claim_type": "qualitative",
+        "confidence": "high",
+        "evidence": {
+          "type": "none",
+          "ref": ""
+        },
+        "sources": ["exp_vent", "exp_revision", "exp_bugdasht", "exp_vexor"]
+      },
+      {
+        "id": "out_03",
+        "text": "Improved reliability in a high-traffic SaaS from ~65% → 92%.",
+        "tags": ["backend", "reliability"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "Revision:reliability_metric"
+        },
+        "sources": ["exp_revision"]
+      },
+      {
+        "id": "out_04",
+        "text": "Scaled throughput ~10× to handle real growth / thousands of concurrent users in low-latency API.",
+        "tags": ["backend", "performance"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "Revision:throughput_scaling"
+        },
+        "sources": ["exp_revision"]
+      },
+      {
+        "id": "out_05",
+        "text": "Cut cloud infrastructure costs by ~60% by simplifying/right-sizing AWS backend architecture.",
+        "tags": ["infra", "performance"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "VENT:aws_cost_reduction"
+        },
+        "sources": ["exp_vent"]
+      },
+      {
+        "id": "out_06",
+        "text": "Safeguarded ~$4M in client funds on-chain over ~3 years with zero security incidents + strong audit outcomes.",
+        "tags": ["security", "web3"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "VENT:assets_and_audit"
+        },
+        "sources": ["exp_vent"]
+      },
+      {
+        "id": "out_07",
+        "text": "Reduced gas fees by ~99% for a critical on-chain operation via workflow redesign.",
+        "tags": ["web3", "performance"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "VENT:gas_reduction"
+        },
+        "sources": ["exp_vent"]
+      },
+      {
+        "id": "out_08",
+        "text": "Built fraud detection pipeline flagging ~10% of user activity as likely fraudulent.",
+        "tags": ["data", "fraud"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "Revision:fraud_pipeline"
+        },
+        "sources": ["exp_revision"]
+      },
+      {
+        "id": "out_09",
+        "text": "Saved ~3 hours/day via SecOps automation (security operations).",
+        "tags": ["security", "automation"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "MCI:secops_time_saved"
+        },
+        "sources": ["exp_mci"]
+      },
+      {
+        "id": "out_10",
+        "text": "Achieved 9/10 external security audit score (worked with auditors).",
+        "tags": ["security", "compliance"],
+        "claim_type": "metric",
+        "confidence": "medium",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "VENT:audit_score"
+        },
+        "sources": ["exp_vent"]
+      },
+      {
+        "id": "out_11",
+        "text": "Saved ~$50K+ in outsourcing/agency spend by taking backend/infra/security in-house.",
+        "tags": ["infra", "security"],
+        "claim_type": "metric",
+        "confidence": "low",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "VENT:outsourcing_savings"
+        },
+        "sources": ["exp_vent"]
+      },
+      {
+        "id": "out_12",
+        "text": "Prevented spending $10k to build unnecessary product; instead built a demo ready for investor pitch in 10 days.",
+        "tags": ["product", "fullstack"],
+        "claim_type": "metric",
+        "confidence": "low",
+        "evidence": {
+          "type": "internal_note",
+          "ref": "BBB:demo_10_days_cost_avoidance"
+        },
+        "sources": ["proj_bbb"]
+      }
+    ]
+  },
+  "focus_areas": {
+    "items": [
+      {
+        "id": "fa_backend_reliability",
+        "text": "Backend & Systems Reliability",
+        "tags": ["backend", "reliability"]
+      },
+      {
+        "id": "fa_scalability_performance",
+        "text": "Scalability & Performance",
+        "tags": ["backend", "performance"]
+      },
+      {
+        "id": "fa_cost_optimization",
+        "text": "Cost Optimization",
+        "tags": ["infra"]
+      },
+      {
+        "id": "fa_security_secdevops",
+        "text": "Security / SecDevOps",
+        "tags": ["security"]
+      },
+      {
+        "id": "fa_end_to_end_ownership",
+        "text": "End-to-End Ownership",
+        "tags": ["fullstack", "product"]
+      },
+      {
+        "id": "fa_mvp_delivery",
+        "text": "MVP Delivery & Product Iteration",
+        "tags": ["fullstack", "product"]
+      },
+      {
+        "id": "fa_clean_ux",
+        "text": "Clean UX over robust backends",
+        "tags": ["fullstack", "ux"]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "id": "exp_vexor",
+        "org": "Vexor Network",
+        "org_descriptor": "Web3 Reputation Protocol",
+        "employment_type": "fractional",
+        "engagement": "Freelance / Remote",
+        "role": {
+          "title": "Senior Software Engineer (Fractional CTO / Advisor)",
+          "level": "senior"
+        },
+        "dates": {
+          "start": "2024-11",
+          "end": "2025-02"
+        },
+        "phase": "Idea → Pre-Beta / Pre-Launch",
+        "stack_scope": [
+          {
+            "id": "exp_vexor_stack_01",
+            "text": "Built and hardened a React frontend + Python backend on Google Cloud for a pre-beta launch phase.",
+            "tags": ["fullstack", "backend", "infra"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "bullets": [
+          {
+            "id": "exp_vexor_api_01",
+            "text_long": "Implemented input validation and request guardrails (server-side validation + API rate limiting) to reduce obvious abuse and failure modes during early user onboarding.",
+            "text_short": "Added server-side validation + rate limiting to reduce abuse during onboarding.",
+            "tags": ["backend", "security", "reliability"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_perf_01",
+            "text_long": "Added client-side caching to cut redundant API calls, improving perceived speed and reducing backend load/cost.",
+            "text_short": "Added client-side caching to reduce redundant calls and backend load.",
+            "tags": ["fullstack", "performance", "caching", "infra"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_ux_01",
+            "text_long": "Replaced generic errors with application-level notifications and actionable messages to reduce user confusion during failures and improve recovery paths.",
+            "text_short": "Improved failure UX with actionable errors and recovery messaging.",
+            "tags": ["ux", "reliability"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_obs_01",
+            "text_long": "Added baseline observability (error tracking + metrics/logging and alerts) to detect issues before users reported them.",
+            "text_short": "Added error tracking + metrics/logging + alerts for early detection.",
+            "tags": ["observability", "reliability", "infra"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_release_01",
+            "text_long": "Introduced unit testing and continuous deployment to reduce deployment mistakes and standardize releases.",
+            "text_short": "Introduced unit tests + continuous deployment to reduce deployment mistakes.",
+            "tags": ["infra", "reliability", "devops"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_context_01",
+            "text_long": "Brought in pre-beta to review system readiness and de-risk upcoming user growth and first campaign launch; focused on failure modes like bot/abuse, noisy deploys, silent errors and degraded UX.",
+            "text_short": "Pre-beta readiness + failure-mode hardening for onboarding and first launch.",
+            "tags": ["stakeholder", "product", "reliability", "security"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_outcome_01",
+            "text_long": "Supported beta launch with no major technical incidents reported during initial rollout.",
+            "text_short": "Supported beta launch with no major incidents reported.",
+            "tags": ["reliability", "stakeholder"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Vexor:beta_rollout_incidents"
+            }
+          },
+          {
+            "id": "exp_vexor_arch_01",
+            "text_long": "Reviewed existing architecture and delivery pipeline to assess scalability, security, and operational risks ahead of first user onboarding.",
+            "text_short": "Reviewed architecture + delivery pipeline for onboarding readiness risks.",
+            "tags": ["backend", "reliability", "security"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_cicd_01",
+            "text_long": "Enhanced CI/CD workflows, reducing deployment errors (claimed ~50% previously → now “material reduction”) and accelerating release cycles by ~25%; deployment errors became rare / no longer a routine issue.",
+            "text_short": "Improved CI/CD; reduced deployment errors and sped up releases (~25%).",
+            "tags": ["infra", "reliability", "devops"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Vexor:cicd_release_metrics_estimate",
+              "measurement": "estimate",
+              "method": "observed cadence + deploy error frequency (no baseline dashboard)"
+            }
+          },
+          {
+            "id": "exp_vexor_env_01",
+            "text_long": "Architected a scalable, multi-stage development environment (dev / staging / prod) to support safer iteration and controlled launches.",
+            "text_short": "Set up dev/staging/prod environments for safer launches.",
+            "tags": ["infra", "reliability"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vexor_cache_01",
+            "text_long": "Implemented caching strategies that reduced API response times by ~40% under expected load.",
+            "text_short": "Implemented caching; reduced API response times ~40% (expected load).",
+            "tags": ["backend", "performance", "caching"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Vexor:lighthouse_report_before_after",
+              "measurement": "measured",
+              "method": "Google Lighthouse"
+            }
+          },
+          {
+            "id": "exp_vexor_enable_01",
+            "text_long": "Provided hands-on guidance across DevOps, refactoring, and development workflow improvements without becoming a long-term team dependency.",
+            "text_short": "Unblocked DevOps + refactoring + workflow improvements without long-term dependency.",
+            "tags": ["stakeholder", "enablement", "refactoring", "devops"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "tech_focus": {
+          "tags": [
+            "devops",
+            "security",
+            "refactoring",
+            "reliability",
+            "performance",
+            "observability"
+          ]
+        },
+        "search_blob": "Vexor Network | Web3 Reputation Protocol | Senior Software Engineer (Fractional CTO / Advisor) | dates 2024-11–2025-02 | Built and hardened a React frontend + Python backend on Google Cloud for a pre-beta launch phase. | Implemented caching; reduced API response times ~40% (expected load). | Improved CI/CD; reduced deployment errors and sped up releases (~25%). | Added server-side validation + rate limiting to reduce abuse during onboarding. | tags backend caching devops enablement fullstack infra observability performance product refactoring reliability security stakeholder ux | tech python react ci/cd devops"
+      },
+      {
+        "id": "exp_vent",
+        "org": "VENT Finance",
+        "org_descriptor": "Web3 Digital Asset Investment & Launch Platform",
+        "employment_type": "full_time",
+        "engagement": "",
+        "role": {
+          "title": "Senior (Backend / Full Stack) Engineer – Financial System & Security",
+          "level": "senior"
+        },
+        "dates": {
+          "start": "2021-11",
+          "end": "2024-06"
+        },
+        "bullets": [
+          {
+            "id": "exp_vent_sec_01",
+            "text_long": "Safeguarded ~$4M client assets on-chain over ~3 years with zero security incidents by maintaining/improving smart contracts + backend services.",
+            "text_short": "Safeguarded ~$4M on-chain assets with zero incidents via smart contracts + backend hardening.",
+            "tags": ["backend", "security", "web3"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "VENT:assets_and_incidents"
+            }
+          },
+          {
+            "id": "exp_vent_cost_01",
+            "text_long": "Cut monthly cloud costs ~60% by simplifying AWS architecture, removing waste, tuning services.",
+            "text_short": "Cut AWS spend ~60% by simplifying architecture and tuning services.",
+            "tags": ["infra", "performance"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "VENT:aws_cost_reduction"
+            }
+          },
+          {
+            "id": "exp_vent_gas_01",
+            "text_long": "Reduced cost of a key on-chain operation ~99% by redesigning Ethereum workflow (batching + verification).",
+            "text_short": "Reduced gas cost ~99% via batching + verification redesign.",
+            "tags": ["web3", "performance"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "VENT:gas_reduction"
+            }
+          },
+          {
+            "id": "exp_vent_cicd_01",
+            "text_long": "Introduced automated testing + CI/CD to reduce manual errors and release friction.",
+            "text_short": "Introduced automated tests + CI/CD to reduce release errors.",
+            "tags": ["infra", "reliability", "devops"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_vent_audit_01",
+            "text_long": "Helped product achieve 9/10 external security audit score; collaborated with auditors to address findings.",
+            "text_short": "Partnered with auditors; helped reach 9/10 security audit score.",
+            "tags": ["security", "compliance", "stakeholder"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "VENT:audit_score"
+            }
+          },
+          {
+            "id": "exp_vent_outsource_01",
+            "text_long": "Saved ~$50K+ in outsourcing/agency spend by taking backend/infra/security in-house.",
+            "text_short": "Brought backend/infra/security in-house; avoided ~$50K+ outsourcing spend.",
+            "tags": ["infra", "security"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "VENT:outsourcing_savings"
+            }
+          }
+        ],
+        "search_blob": "VENT Finance | Web3 Digital Asset Investment & Launch Platform | Senior (Backend / Full Stack) Engineer – Financial System & Security | dates 2021-11–2024-06 | Safeguarded ~$4M on-chain assets with zero incidents via smart contracts + backend hardening. | Cut AWS spend ~60% by simplifying architecture and tuning services. | Reduced gas cost ~99% via batching + verification redesign. | tags backend compliance devops infra performance reliability security stakeholder web3 | tech aws devops smart contracts"
+      },
+      {
+        "id": "exp_revision",
+        "org": "Revision",
+        "org_descriptor": "Trivia Mobile Gaming Studio",
+        "employment_type": "full_time",
+        "engagement": "",
+        "role": {
+          "title": "Senior (Backend / Full Stack) Engineer – Scalability & Reliability",
+          "level": "senior"
+        },
+        "dates": {
+          "start": "2020-02",
+          "end": "2021-07"
+        },
+        "bullets": [
+          {
+            "id": "exp_revision_perf_01",
+            "text_long": "Scaled backend throughput ~10× to handle thousands of concurrent players without increasing hosting costs.",
+            "text_short": "Scaled throughput ~10× for thousands of concurrent players without higher hosting costs.",
+            "tags": ["backend", "performance", "infra"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Revision:throughput_scaling"
+            }
+          },
+          {
+            "id": "exp_revision_incident_01",
+            "text_long": "Improved resilience so outages could be recovered in seconds vs minutes.",
+            "text_short": "Improved recovery from minutes to seconds.",
+            "tags": ["reliability", "incident"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Revision:recovery_times"
+            }
+          },
+          {
+            "id": "exp_revision_fraud_01",
+            "text_long": "Built data analysis pipeline flagging ~10% of activity as likely fraudulent; partnered with product/ops to reduce abuse.",
+            "text_short": "Built fraud pipeline; flagged ~10% activity; reduced abuse with product/ops.",
+            "tags": ["data", "fraud", "stakeholder"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Revision:fraud_pipeline"
+            }
+          },
+          {
+            "id": "exp_revision_collab_01",
+            "text_long": "Collaborated with mobile + product teams to prioritize performance fixes with biggest UX/reviews impact.",
+            "text_short": "Prioritized performance fixes with mobile/product for best UX impact.",
+            "tags": ["product", "stakeholder", "performance"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_revision_reliability_01",
+            "text_long": "Improved reliability in a high-traffic SaaS from ~65% → 92%.",
+            "text_short": "Improved reliability from ~65% to ~92%.",
+            "tags": ["backend", "reliability"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Revision:reliability_metric"
+            }
+          }
+        ],
+        "search_blob": "Revision | Trivia Mobile Gaming Studio | Senior (Backend / Full Stack) Engineer – Scalability & Reliability | dates 2020-02–2021-07 | Scaled throughput ~10× for thousands of concurrent players without higher hosting costs. | Built fraud pipeline; flagged ~10% activity; reduced abuse with product/ops. | Improved reliability from ~65% to ~92%. | tags backend data fraud incident infra performance product reliability stakeholder"
+      },
+      {
+        "id": "exp_bugdasht",
+        "org": "BugDasht",
+        "org_descriptor": "Crowdsourced Cybersecurity Platform",
+        "employment_type": "founder",
+        "engagement": "",
+        "role": {
+          "title": "Founding Engineer",
+          "level": "senior"
+        },
+        "role_aliases": [
+          "Founding Engineer (Full Stack)",
+          "Senior Backend Engineer | Founding Engineer"
+        ],
+        "dates": {
+          "start": "2019-02",
+          "end": "2019-09"
+        },
+        "bullets": [
+          {
+            "id": "exp_bugdasht_mvp_01",
+            "text_long": "Took platform from idea → live product in ~8 months; owned architecture, backend, integrations end-to-end.",
+            "text_short": "Owned architecture/backend/integrations; shipped idea→live in ~8 months.",
+            "tags": ["backend", "fullstack", "product"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "BugDasht:timeline_8_months"
+            }
+          },
+          {
+            "id": "exp_bugdasht_ui_01",
+            "text_long": "Built initial web UI + workflows; iterated based on real user feedback.",
+            "text_short": "Built UI/workflows; iterated from user feedback.",
+            "tags": ["fullstack", "ux", "product"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_bugdasht_audit_01",
+            "text_long": "Implemented auditability + reporting features to meet regulatory expectations and build customer trust.",
+            "text_short": "Added auditability + reporting to meet regulatory expectations.",
+            "tags": ["security", "compliance", "product"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "BugDasht:auditability_requirements"
+            }
+          },
+          {
+            "id": "exp_bugdasht_translate_01",
+            "text_long": "Worked closely with founder + early users to refine features; translated security requirements into usable product.",
+            "text_short": "Translated security requirements into usable product with founder/early users.",
+            "tags": ["stakeholder", "security", "product"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "search_blob": "BugDasht | Crowdsourced Cybersecurity Platform | Founding Engineer | dates 2019-02–2019-09 | Owned architecture/backend/integrations; shipped idea→live in ~8 months. | Built UI/workflows; iterated from user feedback. | Translated security requirements into usable product with founder/early users. | tags backend compliance fullstack product security stakeholder ux"
+      },
+      {
+        "id": "exp_mci",
+        "org": "MCI",
+        "org_descriptor": "Mobile Communication Company",
+        "employment_type": "full_time",
+        "engagement": "",
+        "role": {
+          "title": "Software Engineer – SecOps / Cybersecurity",
+          "level": "mid"
+        },
+        "dates": {
+          "start": "2017-11",
+          "end": "2019-07"
+        },
+        "bullets": [
+          {
+            "id": "exp_mci_automation_01",
+            "text_long": "Automated repetitive security operations; saved ~3 hours/day; reduced human error risk.",
+            "text_short": "Automated SecOps checks; saved ~3 hours/day; reduced error risk.",
+            "tags": ["security", "automation", "enablement"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "MCI:secops_time_saved"
+            }
+          },
+          {
+            "id": "exp_mci_sdlc_01",
+            "text_long": "Identified/communicated vulnerabilities earlier in SDLC; partnered with dev teams to fix pre-production.",
+            "text_short": "Shifted vuln detection earlier; partnered with dev teams to fix pre-prod.",
+            "tags": ["security", "stakeholder"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "exp_mci_guidelines_01",
+            "text_long": "Turned complex security requirements into practical guidelines/tools engineers could follow.",
+            "text_short": "Converted security requirements into usable guidelines/tools.",
+            "tags": ["security", "enablement", "documentation"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "search_blob": "MCI | Mobile Communication Company | Software Engineer – SecOps / Cybersecurity | dates 2017-11–2019-07 | Automated SecOps checks; saved ~3 hours/day; reduced error risk. | Shifted vuln detection earlier; partnered with dev teams to fix pre-prod. | Converted security requirements into usable guidelines/tools. | tags automation documentation enablement security stakeholder"
+      },
+      {
+        "id": "exp_saman",
+        "org": "Saman Bank",
+        "org_descriptor": "Core Banking System (TradFi)",
+        "employment_type": "full_time",
+        "engagement": "",
+        "role": {
+          "title": "Software Engineer – Fresh Graduated Junior",
+          "level": "junior"
+        },
+        "dates": {
+          "start": "2015-11",
+          "end": "2017-07"
+        },
+        "bullets": [
+          {
+            "id": "exp_saman_core_01",
+            "text_long": "Contributed to core banking system from MVP → v1; built 3 subsystems on ASP.NET/C# + Oracle/DB2; learned regulated finance environment.",
+            "text_short": "Built 3 subsystems on ASP.NET/C# + Oracle/DB2; contributed MVP→v1 in regulated banking.",
+            "tags": ["backend", "compliance"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Saman:subsystems_3"
+            }
+          },
+          {
+            "id": "exp_saman_ops_01",
+            "text_long": "Maintained systems, developed new APIs, integrated modern interfaces, and collaborated within a large team on a substantial codebase.",
+            "text_short": "Maintained systems; built APIs; integrated interfaces; worked in large team codebase.",
+            "tags": ["fullstack", "backend"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "search_blob": "Saman Bank | Core Banking System (TradFi) | Software Engineer – Fresh Graduated Junior | dates 2015-11–2017-07 | Maintained systems; built APIs; integrated interfaces; worked in large team codebase. | Built 3 subsystems on ASP.NET/C# + Oracle/DB2; contributed MVP→v1 in regulated banking. | tags backend compliance fullstack | tech c# .net asp.net oracle db2"
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "id": "proj_bbb",
+        "name": "Block By Block",
+        "descriptor": "Early-Stage Product (Stealth / Pre-Seed) — Empower Projects to Engage Community",
+        "role": {
+          "title": "Technical Co-Founder",
+          "employment_type": "founder"
+        },
+        "dates": {
+          "start": "2025-10",
+          "end": "2026-02"
+        },
+        "bullets": [
+          {
+            "id": "proj_bbb_01",
+            "text_long": "Partnered with a former colleague to translate a raw product idea into a demo in 10 days, focusing on the smallest surface needed for investor and user validation.",
+            "text_short": "Built investor demo in 10 days focusing on minimal surface for validation.",
+            "tags": ["product", "fullstack", "stakeholder"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "BBB:demo_10_days"
+            }
+          },
+          {
+            "id": "proj_bbb_02",
+            "text_long": "Built a mock but realistic MVP to support early demos and fundraising conversations, prioritizing speed without creating throwaway architecture.",
+            "text_short": "Built realistic MVP for demos/fundraising without throwaway architecture.",
+            "tags": ["product", "fullstack"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "proj_bbb_03",
+            "text_long": "Designed and implemented a cloud-native backend on GCP, integrating multiple third-party SaaS services with a structure ready to scale beyond the MVP.",
+            "text_short": "Built cloud-native GCP backend integrating third-party SaaS with scale-ready structure.",
+            "tags": ["backend", "infra"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "proj_bbb_04",
+            "text_long": "Architected the system to support an initial ~4,000-user waitlist, with clear separation between MVP shortcuts and production-ready components.",
+            "text_short": "Architected for ~4,000 waitlist with MVP vs production boundaries.",
+            "tags": ["backend", "reliability", "product"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "BBB:waitlist_4000"
+            }
+          },
+          {
+            "id": "proj_bbb_05",
+            "text_long": "Balanced rapid delivery with long-term maintainability by defining clean service boundaries and deployment patterns early.",
+            "text_short": "Defined service boundaries + deployment patterns early for maintainability.",
+            "tags": ["backend", "infra", "reliability"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "search_blob": "Block By Block | Early-Stage Product (Stealth / Pre-Seed) — Empower Projects to Engage Community | Technical Co-Founder | dates 2025-10–2026-02 | Built investor demo in 10 days focusing on minimal surface for validation. | Architected for ~4,000 waitlist with MVP vs production boundaries. | Built realistic MVP for demos/fundraising without throwaway architecture. | tags backend fullstack infra product reliability stakeholder"
+      },
+      {
+        "id": "proj_shahin",
+        "name": "Shahin",
+        "descriptor": "Physical Security Monitoring System (Edge ML)",
+        "role": {
+          "title": "Founder",
+          "employment_type": "founder"
+        },
+        "dates": {
+          "start": "2025-09",
+          "end": "2025-12"
+        },
+        "bullets": [
+          {
+            "id": "proj_shahin_01",
+            "text_long": "Built offline-first, CPU-only computer vision system to detect/record car traffic; avoided cloud inference.",
+            "text_short": "Built offline CPU-only CV system for traffic detection without cloud inference.",
+            "tags": ["ai", "infra", "product"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "proj_shahin_02",
+            "text_long": "Enabled fast custom reporting (“who entered when?”) for non-technical staff.",
+            "text_short": "Enabled custom reporting for non-technical staff.",
+            "tags": ["product", "ux"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "proj_shahin_03",
+            "text_long": "Worked with local stakeholders to define “useful security data” and iterate reports.",
+            "text_short": "Worked with stakeholders to define useful security data and iterate reports.",
+            "tags": ["stakeholder", "product"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "search_blob": "Shahin | Physical Security Monitoring System (Edge ML) | Founder | dates 2025-09–2025-12 | Built offline CPU-only CV system for traffic detection without cloud inference. | Enabled custom reporting for non-technical staff. | Worked with stakeholders to define useful security data and iterate reports. | tags ai infra product stakeholder ux"
+      },
+      {
+        "id": "proj_dtip",
+        "name": "dTip",
+        "descriptor": "Decentralized Donation Platform (Web3 dApp)",
+        "role": {
+          "title": "Founder",
+          "employment_type": "founder"
+        },
+        "dates": {
+          "start": "2024-10",
+          "end": "2025-5"
+        },
+        "bullets": [
+          {
+            "id": "proj_dtip_01",
+            "text_long": "Identified gap in transparent, non-custodial crypto donations; built open-source dApp as weekend project.",
+            "text_short": "Built open-source dApp for transparent non-custodial donations.",
+            "tags": ["web3", "product"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "proj_dtip_02",
+            "text_long": "Designed simple web flow so non-technical donors can send on-chain donations without deep wallet knowledge.",
+            "text_short": "Designed simple donation UX for non-technical donors.",
+            "tags": ["fullstack", "ux", "web3"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "proj_dtip_03",
+            "text_long": "Shipped end-to-end MVP integrating smart contracts + web frontend; real-time on-chain transparency for donors/recipients.",
+            "text_short": "Shipped MVP integrating contracts + web frontend with real-time on-chain visibility.",
+            "tags": ["fullstack", "web3"],
+            "claim_type": "fact",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "dTip:mvp_scope"
+            }
+          },
+          {
+            "id": "proj_dtip_04",
+            "text_long": "Wrote clear documentation for contributors/users to understand/extend the system.",
+            "text_short": "Wrote documentation for contributors/users.",
+            "tags": ["documentation"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          }
+        ],
+        "search_blob": "dTip | Decentralized Donation Platform (Web3 dApp) | Founder | dates 2024-10–2025-5 | Built open-source dApp for transparent non-custodial donations. | Designed simple donation UX for non-technical donors. | Wrote documentation for contributors/users. | tags documentation fullstack product ux web3"
+      },
+      {
+        "id": "proj_khavar",
+        "name": "Khavar",
+        "descriptor": "Verifiable Car Customization Tracking (Permissioned Blockchain)",
+        "role": {
+          "title": "Technical Co-Founder",
+          "employment_type": "founder"
+        },
+        "dates": {
+          "start": "2018-10",
+          "end": "2019-01"
+        },
+        "timeline": "MVP in ~3 months",
+        "tech": ["IBM Hyperledger Fabric"],
+        "description": "Car-buyer configures options (glass, tires, engine, etc.) and tracks build/customization progress with verifiable integrity, reducing reliance on dealer trust.",
+        "bullets": [
+          {
+            "id": "proj_khavar_01",
+            "text_long": "Built an MVP solo in ~3 months: end-to-end delivery from requirements → working system.",
+            "text_short": "Built MVP solo in ~3 months (requirements→working system).",
+            "tags": ["fullstack", "product", "stakeholder"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Khavar:mvp_3_months"
+            }
+          },
+          {
+            "id": "proj_khavar_02",
+            "text_long": "Implemented verifiable progress + integrity tracking for a customization workflow using a permissioned blockchain network.",
+            "text_short": "Implemented verifiable progress/integrity tracking on permissioned blockchain.",
+            "tags": ["backend", "security", "blockchain"],
+            "claim_type": "fact",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Khavar:features"
+            }
+          },
+          {
+            "id": "proj_khavar_03",
+            "text_long": "Modeled configurable manufacturing/customization events as auditable state transitions on Hyperledger Fabric.",
+            "text_short": "Modeled auditable state transitions on Hyperledger Fabric.",
+            "tags": ["backend", "compliance", "blockchain"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "Khavar:modeling"
+            }
+          }
+        ],
+        "search_blob": "Khavar | Verifiable Car Customization Tracking (Permissioned Blockchain) | Technical Co-Founder | dates 2018-10–2019-01 | Car-buyer configures options (glass, tires, engine, etc.) and tracks build/customization progress with verifiable integrity, reducing reliance on dealer trust. | Built MVP solo in ~3 months (requirements→working system). | Implemented verifiable progress/integrity tracking on permissioned blockchain. | Modeled auditable state transitions on Hyperledger Fabric. | tags backend blockchain compliance fullstack product security stakeholder | tech hyperledger fabric"
+      }
+    ]
+  },
+  "research_academic": {
+    "items": [
+      {
+        "id": "res_mpls_2016",
+        "name": "MPLS Routing Optimization",
+        "descriptor": "Network Simulation Research",
+        "employment_type": "research",
+        "role": {
+          "title": "Research Engineer (Implementation & Experimentation)",
+          "level": "mid"
+        },
+        "dates": {
+          "start": "2016-01",
+          "end": "2016-12"
+        },
+        "timeline": "MVP in ~3 months",
+        "bullets": [
+          {
+            "id": "res_mpls_01",
+            "text_long": "Collaborated with an academic researcher on improving MPLS routing protocol behavior.",
+            "text_short": "Collaborated on improving MPLS routing behavior.",
+            "tags": ["networking", "research"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "MPLS:collaboration"
+            }
+          },
+          {
+            "id": "res_mpls_02",
+            "text_long": "Implemented routing simulations in OMNeT++ using C++ to model protocol behavior under different conditions.",
+            "text_short": "Implemented OMNeT++ C++ simulations for routing behavior.",
+            "tags": ["backend", "performance", "research"],
+            "claim_type": "fact",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "MPLS:omnetpp_cpp"
+            }
+          },
+          {
+            "id": "res_mpls_03",
+            "text_long": "Ran experiments and generated result datasets to support the research analysis and conclusions.",
+            "text_short": "Ran experiments and produced datasets for analysis.",
+            "tags": ["data", "research"],
+            "claim_type": "fact",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "MPLS:datasets"
+            }
+          },
+          {
+            "id": "res_mpls_04",
+            "text_long": "Translated theoretical routing concepts into executable simulation logic.",
+            "text_short": "Translated theory into executable simulation logic.",
+            "tags": ["research", "performance"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "MPLS:logic"
+            }
+          },
+          {
+            "id": "res_mpls_05",
+            "text_long": "Built an MVP solo in ~3 months: end-to-end delivery from requirements → working system.",
+            "text_short": "Built MVP in ~3 months (requirements→working system).",
+            "tags": ["fullstack", "product", "stakeholder", "research"],
+            "claim_type": "metric",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "MPLS:mvp_3_months"
+            }
+          }
+        ],
+        "skills_surfaced": [
+          "C++",
+          "OMNeT++",
+          "Network protocols",
+          "MPLS",
+          "Experimental simulation",
+          "Research toolingly"
+        ]
+      }
+    ]
+  },
+  "learning": {
+    "items": [
+      {
+        "id": "learn_gcp_skills_boost",
+        "name": "Google Cloud Skills Boost",
+        "descriptor": "Generative AI Bootcamp",
+        "employment_type": "part_time",
+        "nature": "Self-directed / free-time learning",
+        "dates": {
+          "start": "2025-08",
+          "end": "2026"
+        },
+        "bullets": [
+          {
+            "id": "learn_gcp_01",
+            "text_long": "Built a CV-trained chatbot constrained to answer only from my resume; tested against prompt injection and irrelevant queries to enforce strict domain boundaries.",
+            "text_short": "Built resume-only chatbot; tested prompt injection; enforced strict boundaries.",
+            "tags": ["ai", "security", "reliability"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "GCP:chatbot_scope"
+            }
+          },
+          {
+            "id": "learn_gcp_02",
+            "text_long": "Designed the system to fail closed (no hallucinated answers outside allowed context).",
+            "text_short": "Designed fail-closed behavior to avoid out-of-scope answers.",
+            "tags": ["ai", "reliability"],
+            "claim_type": "qualitative",
+            "confidence": "high",
+            "evidence": {
+              "type": "none",
+              "ref": ""
+            }
+          },
+          {
+            "id": "learn_gcp_03",
+            "text_long": "Currently building an n8n-based automation to turn rough ideas into directioned research topics with minimal manual steps.",
+            "text_short": "Building n8n automation to convert ideas into guided research topics.",
+            "tags": ["ai", "automation", "product"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "GCP:n8n_automation"
+            }
+          }
+        ],
+        "inclusion_rules": {
+          "include_when_tags_any": ["ai", "automation", "reliability"],
+          "exclude_when_tags_any": ["compliance"]
+        }
+      },
+      {
+        "id": "learn_olas_valory",
+        "name": "Valory — OLAS Autonomous Agent Bootcamp",
+        "descriptor": "Autonomous AI agents using OLAS stack",
+        "employment_type": "part_time",
+        "dates": {
+          "start": "2024-01",
+          "end": "2024-12"
+        },
+        "duration": "1 month",
+        "outcome": "Graduated",
+        "bullets": [
+          {
+            "id": "learn_olas_01",
+            "text_long": "Completed a 1-month remote bootcamp on building autonomous AI agents using the OLAS stack.",
+            "text_short": "Completed OLAS autonomous agent bootcamp (1 month).",
+            "tags": ["ai_agents"],
+            "claim_type": "fact",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "OLAS:graduation"
+            }
+          },
+          {
+            "id": "learn_olas_02",
+            "text_long": "Built hands-on agent workflows as part of the program: https://github.com/miladtsx/dcpay.",
+            "text_short": "Built agent workflows; repo: miladtsx/dcpay.",
+            "tags": ["ai_agents", "documentation"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "repo",
+              "ref": "https://github.com/miladtsx/dcpay"
+            }
+          }
+        ],
+        "outcomes": [
+          {
+            "id": "learn_olas_out_01",
+            "text_long": "Built an autonomous crypto payment acceptance system for businesses, minimized blind trust on third-party payment processors by running key verification and settlement steps in-house.",
+            "text_short": "Built autonomous crypto payment acceptance with in-house verification/settlement.",
+            "tags": ["backend", "security", "web3"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "OLAS:dcpay_scope"
+            }
+          },
+          {
+            "id": "learn_olas_out_02",
+            "text_long": "Implemented payment detection + confirmation logic and business-facing reporting/ops flow (e.g., invoices, reconciliation, alerts).",
+            "text_short": "Implemented payment detection/confirmation and ops reporting (invoices, reconciliation, alerts).",
+            "tags": ["backend", "reliability"],
+            "claim_type": "qualitative",
+            "confidence": "medium",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "OLAS:dcpay_features"
+            }
+          },
+          {
+            "id": "learn_olas_out_03",
+            "text_long": "Delivered as a 1-month freelance engagement following the Valory bootcamp; received multiple inbound freelance offers after graduation.",
+            "text_short": "Delivered as 1-month freelance; received inbound offers after graduation.",
+            "tags": ["stakeholder"],
+            "claim_type": "qualitative",
+            "confidence": "low",
+            "evidence": {
+              "type": "internal_note",
+              "ref": "OLAS:offers"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "id": "edu_msc",
+        "degree": "M.Sc. Software Security",
+        "thesis": "Distributed Intrusion Prevention Systems",
+        "tags": ["security"]
+      },
+      {
+        "id": "edu_bsc",
+        "degree": "B.Sc. Software Engineering",
+        "tags": [
+          "backend",
+          "networking",
+          "stakeholder",
+          "research",
+          "reliability"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "items": [
+      {
+        "id": "cert_olas_2024",
+        "name": "Autonomous AI Agent Development Framework – OLAS",
+        "year": 2024,
+        "tags": ["ai", "blockchain"]
+      },
+      {
+        "id": "cert_bsc_academy_bitcoin_2021",
+        "name": "Bitcoin Theory (BSC Academy)",
+        "year": 2021,
+        "tags": ["blockchain", "web3"]
+      },
+      {
+        "id": "cert_ceh_2019",
+        "name": "Certified Ethical Hacker",
+        "year": 2019,
+        "tags": ["security"]
+      }
+    ]
+  },
+  "skills": {
+    "groups": [
+      {
+        "id": "skills_languages_runtime",
+        "name": "Languages & Runtime",
+        "items": [
+          "Node.js",
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "Rust",
+          "C#",
+          "Java",
+          "Go"
+        ]
+      },
+      {
+        "id": "skills_backend_frameworks",
+        "name": "Backend & Frameworks",
+        "items": [
+          "Nest.js",
+          "Express.js",
+          "REST APIs",
+          "WebSockets",
+          "Microservices",
+          "Serverless"
+        ]
+      },
+      {
+        "id": "skills_frontend",
+        "name": "Frontend",
+        "items": ["React", "Next.js", "HTML", "CSS", "Tailwind"]
+      },
+      {
+        "id": "skills_databases_data",
+        "name": "Databases & Data",
+        "items": [
+          "PostgreSQL",
+          "MongoDB",
+          "Firebase",
+          "Redis",
+          "SQL",
+          "NoSQL",
+          "Query optimization",
+          "Replication"
+        ]
+      },
+      {
+        "id": "skills_cloud_infra",
+        "name": "Cloud & Infra",
+        "items": [
+          "AWS",
+          "Lambda",
+          "API Gateway",
+          "S3",
+          "CloudFront",
+          "GCP",
+          "Cloud Run",
+          "Docker",
+          "CI/CD",
+          "GitHub Actions",
+          "Linux",
+          "Nginx",
+          "RabbitMQ",
+          "Kafka"
+        ]
+      },
+      {
+        "id": "skills_observability_reliability",
+        "name": "Observability & Reliability",
+        "items": [
+          "Monitoring",
+          "Logging",
+          "Alerting",
+          "Incident response",
+          "High availability",
+          "Disaster recovery",
+          "Performance tuning",
+          "Caching & DB optimization",
+          "Grafana",
+          "Prometheus",
+          "OTEL/OpenTelemetry"
+        ]
+      },
+      {
+        "id": "skills_security",
+        "name": "Security",
+        "items": [
+          "Application security",
+          "SecDevOps",
+          "Static analysis",
+          "Threat modeling",
+          "Cryptography basics",
+          "Vulnerability analysis",
+          "White-box audits"
+        ]
+      },
+      {
+        "id": "skills_blockchain_web3",
+        "name": "Blockchain / Web3",
+        "items": [
+          "Ethereum",
+          "Polygon",
+          "Solidity",
+          "Smart contracts",
+          "Web3.js",
+          "Ethers.js",
+          "DeFi",
+          "ZK-based optimizations",
+          "Rust"
+        ]
+      },
+      {
+        "id": "skills_ai",
+        "name": "Artificial Intelligence",
+        "items": [
+          "Google Vertex",
+          "Codex",
+          "Ollama",
+          "OpenAI",
+          "Gemini",
+          "LangChain",
+          "n8n",
+          "CrewAI",
+          "Transformers",
+          "PyTorch"
+        ]
+      },
+      {
+        "id": "skills_domains",
+        "name": "Domains",
+        "items": [
+          "Fintech",
+          "DeFi",
+          "Gaming",
+          "Cybersecurity",
+          "Core banking",
+          "Telecom",
+          "SaaS",
+          "Real-time systems"
+        ]
+      }
+    ]
+  },
+  "rendering_hints": {
+    "profile_variants": {
+      "backend": {
+        "title_id": "title_backend",
+        "include_tags_any": [
+          "backend",
+          "reliability",
+          "security",
+          "performance",
+          "infra",
+          "devops",
+          "observability",
+          "incident"
+        ],
+        "exclude_tags_any": ["ux"]
+      },
+      "fullstack": {
+        "title_id": "title_fullstack",
+        "include_tags_any": [
+          "fullstack",
+          "product",
+          "ux",
+          "backend",
+          "infra",
+          "stakeholder"
+        ],
+        "exclude_tags_any": []
+      }
+    },
+    "inclusion_defaults": {
+      "max_bullets_per_experience": 5,
+      "max_outcomes": 6,
+      "include_learning_when_tags_any": [
+        "ai",
+        "automation",
+        "ai_agents",
+        "reliability",
+        "security",
+        "web3"
+      ],
+      "exclude_learning_when_tags_any": ["compliance"]
+    }
+  },
+  "quality_gates": {
+    "rules": [
+      {
+        "id": "gate_no_placeholders",
+        "description": "No empty bullets or dangling markers allowed in rendered output."
+      },
+      {
+        "id": "gate_metric_requires_evidence",
+        "description": "Any metric claim_type must have evidence.type != none OR confidence != high."
+      },
+      {
+        "id": "gate_duplicate_text_short",
+        "description": "No duplicate text_short entries within the same experience/project."
+      },
+      {
+        "id": "gate_tag_validation",
+        "description": "All tags must be within controlled_vocabulary.tags."
+      },
+      {
+        "id": "gate_date_format",
+        "description": "Dates must be YYYY-MM or null."
+      },
+      {
+        "id": "gate_overlap_allowed_if_labeled",
+        "description": "Overlapping dates allowed only if employment_type in [freelance, fractional, advisor, founder, research]."
+      }
+    ]
+  },
+  "jd_alignment": {
+    "role_classification": {
+      "profiles": ["backend", "fullstack", "mixed"],
+      "signals": {
+        "backend": {
+          "keywords_any": [
+            "backend",
+            "microservices",
+            "api",
+            "rest",
+            "graphql",
+            "distributed",
+            "scalability",
+            "performance",
+            "latency",
+            "throughput",
+            "reliability",
+            "sre",
+            "observability",
+            "monitoring",
+            "logging",
+            "alerting",
+            "incident",
+            "postgres",
+            "redis",
+            "kafka",
+            "rabbitmq",
+            "docker",
+            "kubernetes",
+            "aws",
+            "gcp",
+            "ci/cd",
+            "devops",
+            "security",
+            "auth",
+            "oauth",
+            "jwt"
+          ],
+          "keywords_weight": 1
+        },
+        "fullstack": {
+          "keywords_any": [
+            "frontend",
+            "react",
+            "next.js",
+            "ui",
+            "ux",
+            "design system",
+            "component",
+            "browser",
+            "webapp",
+            "full stack",
+            "fullstack",
+            "product",
+            "mvp",
+            "stakeholder",
+            "landing page",
+            "tailwind",
+            "typescript"
+          ],
+          "keywords_weight": 1
+        }
+      },
+      "decision_rule": "score backend and fullstack signals; if within 20% treat as mixed; otherwise pick max",
+      "tie_breakers": [
+        "If JD explicitly says 'Full Stack' -> fullstack",
+        "If JD explicitly says 'Backend' -> backend",
+        "If JD emphasizes ownership of UI/UX -> fullstack",
+        "If JD emphasizes low-latency, microservices, infra, on-call -> backend"
+      ]
+    },
+    "ats": {
+      "keyword_aliases": {
+        "ci/cd": [
+          "ci/cd",
+          "cicd",
+          "continuous integration",
+          "continuous delivery",
+          "continuous deployment"
+        ],
+        "observability": [
+          "observability",
+          "monitoring",
+          "logging",
+          "alerting",
+          "metrics",
+          "tracing",
+          "opentelemetry",
+          "otel",
+          "grafana",
+          "prometheus"
+        ],
+        "reliability": [
+          "reliability",
+          "resilience",
+          "fault tolerance",
+          "high availability",
+          "incident response",
+          "on-call",
+          "disaster recovery"
+        ],
+        "performance": [
+          "performance",
+          "low latency",
+          "throughput",
+          "load testing",
+          "stress testing",
+          "profiling",
+          "optimization"
+        ],
+        "security": [
+          "security",
+          "application security",
+          "secdevops",
+          "threat modeling",
+          "authentication",
+          "authorization",
+          "oauth",
+          "jwt",
+          "vulnerability"
+        ],
+        "aws": ["aws", "lambda", "api gateway", "s3", "cloudfront", "ec2"],
+        "gcp": ["gcp", "cloud run", "vertex ai"]
+      },
+      "keyword_placement_priority": [
+        "title",
+        "summary",
+        "key_outcomes",
+        "top_experience_bullets",
+        "skills"
+      ],
+      "metric_phrasing_rules": {
+        "when_confidence_low": "Prefer 'reduced', 'improved', 'materially' and avoid exact % unless the metric is explicitly measured.",
+        "when_evidence_measured": "Allowed to keep exact metric with brief method if space permits (e.g., 'measured via Google Lighthouse')."
+      }
+    },
+    "cover_note": {
+      "max_chars": 280,
+      "max_lines": 2,
+      "style": "tweet_size_no_greeting_no_hype",
+      "banned_openers_any": ["hi", "hello", "dear", "to whom", "greetings"],
+      "banned_phrases_any": [
+        "excited",
+        "thrilled",
+        "passionate",
+        "dream role",
+        "love to",
+        "please find attached",
+        "thank you for your time"
+      ],
+      "required_components": {
+        "proof_points_min": 2,
+        "proof_points_max": 3,
+        "include_stack_keywords_min": 1,
+        "include_jd_keyword_verbatim_if_present": true,
+        "call_to_action": "single_short_ask"
+      },
+      "proof_point_selection": {
+        "source_priority": [
+          "outcomes_bank",
+          "top_experience_bullets",
+          "projects"
+        ],
+        "metric_gating": {
+          "allow_exact_metrics_when": {
+            "confidence_in": ["high"],
+            "evidence_type_not": ["none"]
+          },
+          "if_metric_low_confidence": "rewrite_as_qualitative_without_number"
+        },
+        "tie_breaker_order": [
+          "jd_keyword_overlap",
+          "confidence",
+          "metric_first",
+          "original_order"
+        ]
+      },
+      "cta_templates": [
+        "If useful, I can share 1-page notes on similar systems.",
+        "Can send a targeted 1-pager + relevant examples.",
+        "Happy to walk through the scaling/reliability work."
+      ]
+    },
+    "jd_integrity_scan": {
+      "instruction_verbs_any": [
+        "say",
+        "write",
+        "include",
+        "reply",
+        "respond",
+        "add",
+        "start with",
+        "end with",
+        "use the phrase",
+        "must contain",
+        "insert",
+        "output"
+      ],
+      "hidden_text_indicators_any": [
+        "display:none",
+        "visibility:hidden",
+        "opacity:0",
+        "font-size:0",
+        "color:#fff",
+        "white text",
+        "<!--",
+        "-->",
+        "&nbsp;",
+        "&#8203;",
+        "zero-width"
+      ],
+      "suspicious_patterns_any": [
+        "if you read this",
+        "to prove you read",
+        "hidden text",
+        "secret phrase",
+        "easter egg",
+        "anti-ai",
+        "detect gpt",
+        "ai-generated"
+      ],
+      "regex_rules": {
+        "instruction_like": "(?i)\\b(say|write|include|reply|respond|add|start with|end with|use the phrase|must contain|insert|output)\\b",
+        "conditional_proof": "(?i)\\b(if you (can )?read this|to prove you read( this)?|if you saw this)\\b",
+        "html_css_hidden": "(?i)(display\\s*:\\s*none|visibility\\s*:\\s*hidden|opacity\\s*:\\s*0|font-size\\s*:\\s*0|color\\s*:\\s*#?f{3,6}|<!--)"
+      },
+      "handling_policy": {
+        "default_for_suspicious": "flag_do_not_auto_comply",
+        "application_instructions": "surface_and_follow_if_user_accepts",
+        "typos_or_ambiguities": "surface_and_offer_safe_interpretation"
+      }
+    }
+  },
+  "integrity": {
+    "known_issues": [
+      {
+        "id": "issue_empty_tag_edu_bsc",
+        "status": "fixed_in_1_1_0",
+        "description": "Removed empty tag entry from edu_bsc.tags to satisfy tag validation gate."
+      }
+    ],
+    "notes": [
+      "Keep metric claims conservative when confidence is low or evidence measurement is 'estimate'."
+    ],
+    "rules": [
+      {
+        "id": "gate_cover_note_no_greeting",
+        "description": "Cover note must not include greetings, hype, or generic cover-letter filler; must be <= max_chars."
+      }
+    ]
+  },
+  "manifest": {
+    "experiences": [
+      {
+        "id": "exp_vexor",
+        "org": "Vexor Network",
+        "dates": {
+          "start": "2024-11",
+          "end": "2025-02"
+        },
+        "search_blob": "Vexor Network | Web3 Reputation Protocol | Senior Software Engineer (Fractional CTO / Advisor) | dates 2024-11–2025-02 | Built and hardened a React frontend + Python backend on Google Cloud for a pre-beta launch phase. | Implemented caching; reduced API response times ~40% (expected load). | Improved CI/CD; reduced deployment errors and sped up releases (~25%). | Added server-side validation + rate limiting to reduce abuse during onboarding. | tags backend caching devops enablement fullstack infra observability performance product refactoring reliability security stakeholder ux | tech python react ci/cd devops"
+      },
+      {
+        "id": "exp_vent",
+        "org": "VENT Finance",
+        "dates": {
+          "start": "2021-11",
+          "end": "2024-06"
+        },
+        "search_blob": "VENT Finance | Web3 Digital Asset Investment & Launch Platform | Senior (Backend / Full Stack) Engineer – Financial System & Security | dates 2021-11–2024-06 | Safeguarded ~$4M on-chain assets with zero incidents via smart contracts + backend hardening. | Cut AWS spend ~60% by simplifying architecture and tuning services. | Reduced gas cost ~99% via batching + verification redesign. | tags backend compliance devops infra performance reliability security stakeholder web3 | tech aws devops smart contracts"
+      },
+      {
+        "id": "exp_revision",
+        "org": "Revision",
+        "dates": {
+          "start": "2020-02",
+          "end": "2021-07"
+        },
+        "search_blob": "Revision | Trivia Mobile Gaming Studio | Senior (Backend / Full Stack) Engineer – Scalability & Reliability | dates 2020-02–2021-07 | Scaled throughput ~10× for thousands of concurrent players without higher hosting costs. | Built fraud pipeline; flagged ~10% activity; reduced abuse with product/ops. | Improved reliability from ~65% to ~92%. | tags backend data fraud incident infra performance product reliability stakeholder"
+      },
+      {
+        "id": "exp_bugdasht",
+        "org": "BugDasht",
+        "dates": {
+          "start": "2019-02",
+          "end": "2019-09"
+        },
+        "search_blob": "BugDasht | Crowdsourced Cybersecurity Platform | Founding Engineer | dates 2019-02–2019-09 | Owned architecture/backend/integrations; shipped idea→live in ~8 months. | Built UI/workflows; iterated from user feedback. | Translated security requirements into usable product with founder/early users. | tags backend compliance fullstack product security stakeholder ux"
+      },
+      {
+        "id": "exp_mci",
+        "org": "MCI",
+        "dates": {
+          "start": "2017-11",
+          "end": "2019-07"
+        },
+        "search_blob": "MCI | Mobile Communication Company | Software Engineer – SecOps / Cybersecurity | dates 2017-11–2019-07 | Automated SecOps checks; saved ~3 hours/day; reduced error risk. | Shifted vuln detection earlier; partnered with dev teams to fix pre-prod. | Converted security requirements into usable guidelines/tools. | tags automation documentation enablement security stakeholder"
+      },
+      {
+        "id": "exp_saman",
+        "org": "Saman Bank",
+        "dates": {
+          "start": "2015-11",
+          "end": "2017-07"
+        },
+        "search_blob": "Saman Bank | Core Banking System (TradFi) | Software Engineer – Fresh Graduated Junior | dates 2015-11–2017-07 | Maintained systems; built APIs; integrated interfaces; worked in large team codebase. | Built 3 subsystems on ASP.NET/C# + Oracle/DB2; contributed MVP→v1 in regulated banking. | tags backend compliance fullstack | tech c# .net asp.net oracle db2"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_bbb",
+        "name": "Block By Block",
+        "dates": {
+          "start": "2025-10",
+          "end": "2026-02"
+        },
+        "search_blob": "Block By Block | Early-Stage Product (Stealth / Pre-Seed) — Empower Projects to Engage Community | Technical Co-Founder | dates 2025-10–2026-02 | Built investor demo in 10 days focusing on minimal surface for validation. | Architected for ~4,000 waitlist with MVP vs production boundaries. | Built realistic MVP for demos/fundraising without throwaway architecture. | tags backend fullstack infra product reliability stakeholder"
+      },
+      {
+        "id": "proj_shahin",
+        "name": "Shahin",
+        "dates": {
+          "start": "2025-09",
+          "end": "2025-12"
+        },
+        "search_blob": "Shahin | Physical Security Monitoring System (Edge ML) | Founder | dates 2025-09–2025-12 | Built offline CPU-only CV system for traffic detection without cloud inference. | Enabled custom reporting for non-technical staff. | Worked with stakeholders to define useful security data and iterate reports. | tags ai infra product stakeholder ux"
+      },
+      {
+        "id": "proj_dtip",
+        "name": "dTip",
+        "dates": {
+          "start": "2024-10",
+          "end": "2025-5"
+        },
+        "search_blob": "dTip | Decentralized Donation Platform (Web3 dApp) | Founder | dates 2024-10–2025-5 | Built open-source dApp for transparent non-custodial donations. | Designed simple donation UX for non-technical donors. | Wrote documentation for contributors/users. | tags documentation fullstack product ux web3"
+      },
+      {
+        "id": "proj_khavar",
+        "name": "Khavar",
+        "dates": {
+          "start": "2018-10",
+          "end": "2019-01"
+        },
+        "search_blob": "Khavar | Verifiable Car Customization Tracking (Permissioned Blockchain) | Technical Co-Founder | dates 2018-10–2019-01 | Car-buyer configures options (glass, tires, engine, etc.) and tracks build/customization progress with verifiable integrity, reducing reliance on dealer trust. | Built MVP solo in ~3 months (requirements→working system). | Implemented verifiable progress/integrity tracking on permissioned blockchain. | Modeled auditable state transitions on Hyperledger Fabric. | tags backend blockchain compliance fullstack product security stakeholder | tech hyperledger fabric"
+      }
+    ]
+  },
+  "manifest_generated_at": "2026-02-03T12:36:00.395Z"
+}
