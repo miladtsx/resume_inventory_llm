@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4.3",
+  "schema_version": "1.4.5",
   "document_type": "base_resume_inventory",
   "owner": {
     "name": "MILAD TSX",
@@ -42,7 +42,8 @@
       "devops",
       "refactoring",
       "observability",
-      "caching"
+      "caching",
+      "cryptography"
     ],
     "claim_types": ["fact", "metric", "qualitative"],
     "confidence_levels": ["high", "medium", "low"],
@@ -1139,6 +1140,118 @@
           }
         ],
         "search_blob": "Khavar | Verifiable Car Customization Tracking (Permissioned Blockchain) | Technical Co-Founder | dates 2018-10–2019-01 | Car-buyer configures options (glass, tires, engine, etc.) and tracks build/customization progress with verifiable integrity, reducing reliance on dealer trust. | Built MVP solo in ~3 months (requirements→working system). | Implemented verifiable progress/integrity tracking on permissioned blockchain. | Modeled auditable state transitions on Hyperledger Fabric. | tags backend blockchain compliance fullstack product security stakeholder | tech hyperledger fabric"
+      },
+      {
+        "id": "proj_near_threshold_signatures",
+        "name": "NEAR Threshold Signatures",
+        "descriptor": "Open-source cryptographic threshold signature library",
+        "role": {
+          "title": "External Open-Source Security Contributor",
+          "employment_type": "research"
+        },
+        "dates": {
+          "start": "2025-11",
+          "end": "2026-01"
+        },
+        "bullets": [
+          {
+            "id": "near_sec_endianness",
+            "text_long": "Identified and reported an endianness vulnerability affecting big-endian systems in cryptographic code.",
+            "text_short": "Reported endianness vulnerability affecting big-endian systems.",
+            "tags": ["security", "cryptography", "research"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/issues/150"
+            }
+          },
+          {
+            "id": "near_sec_dos",
+            "text_long": "Identified and fixed multiple denial-of-service vectors including local and remote node crashes and out-of-memory conditions.",
+            "text_short": "Identified and fixed multiple DoS vectors (local + remote crashes).",
+            "tags": ["security", "reliability"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/issues/185"
+            }
+          },
+          {
+            "id": "near_sec_buffer_overflow",
+            "text_long": "Fixed buffer overflow vulnerabilities in cryptographic implementations.",
+            "text_short": "Fixed buffer overflow vulnerabilities in crypto code.",
+            "tags": ["security", "cryptography"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/pull/132"
+            }
+          },
+          {
+            "id": "near_sec_side_channel",
+            "text_long": "Mitigated side-channel attack surfaces in sensitive cryptographic operations.",
+            "text_short": "Mitigated side-channel risks in cryptographic operations.",
+            "tags": ["security", "cryptography"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/pull/80"
+            }
+          },
+          {
+            "id": "near_sec_formal_verification",
+            "text_long": "Contributed formal verification improvements to strengthen correctness guarantees of cryptographic primitives.",
+            "text_short": "Contributed formal verification for crypto correctness.",
+            "tags": ["security", "research", "cryptography"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/pull/102"
+            }
+          },
+          {
+            "id": "near_perf_crypto",
+            "text_long": "Delivered significant cryptographic performance improvements, achieving approximately 80× and 5× speedups in critical paths.",
+            "text_short": "Improved crypto performance (~80× and ~5× speedups).",
+            "tags": ["performance", "cryptography"],
+            "claim_type": "metric",
+            "confidence": "medium",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/pull/50"
+            }
+          },
+          {
+            "id": "near_refactor_types",
+            "text_long": "Refactored codebase to increase type safety and reduce classes of runtime and memory errors.",
+            "text_short": "Improved type safety to reduce runtime and memory errors.",
+            "tags": ["refactoring", "reliability", "security"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/pull/64"
+            }
+          },
+          {
+            "id": "near_ci_workflows",
+            "text_long": "Set up development CI workflows to improve testing and catch regressions earlier.",
+            "text_short": "Set up CI workflows for safer development.",
+            "tags": ["devops", "reliability"],
+            "claim_type": "fact",
+            "confidence": "high",
+            "evidence": {
+              "type": "link",
+              "ref": "https://github.com/near/threshold-signatures/pull/70"
+            }
+          }
+        ],
+        "search_blob": "NEAR Threshold Signatures | Open-source cryptographic threshold signature library | External Open-Source Security Contributor | dates 2025-11–2026-01 | Improved crypto performance (~80× and ~5× speedups). | Reported endianness vulnerability affecting big-endian systems. | Identified and fixed multiple DoS vectors (local + remote crashes). | tags cryptography devops performance refactoring reliability research security | tech devops"
       }
     ]
   },
@@ -1966,8 +2079,17 @@
           "end": "2019-01"
         },
         "search_blob": "Khavar | Verifiable Car Customization Tracking (Permissioned Blockchain) | Technical Co-Founder | dates 2018-10–2019-01 | Car-buyer configures options (glass, tires, engine, etc.) and tracks build/customization progress with verifiable integrity, reducing reliance on dealer trust. | Built MVP solo in ~3 months (requirements→working system). | Implemented verifiable progress/integrity tracking on permissioned blockchain. | Modeled auditable state transitions on Hyperledger Fabric. | tags backend blockchain compliance fullstack product security stakeholder | tech hyperledger fabric"
+      },
+      {
+        "id": "proj_near_threshold_signatures",
+        "name": "NEAR Threshold Signatures",
+        "dates": {
+          "start": "2025-11",
+          "end": "2026-01"
+        },
+        "search_blob": "NEAR Threshold Signatures | Open-source cryptographic threshold signature library | External Open-Source Security Contributor | dates 2025-11–2026-01 | Improved crypto performance (~80× and ~5× speedups). | Reported endianness vulnerability affecting big-endian systems. | Identified and fixed multiple DoS vectors (local + remote crashes). | tags cryptography devops performance refactoring reliability research security | tech devops"
       }
     ]
   },
-  "manifest_generated_at": "2026-02-03T12:36:00.395Z"
+  "manifest_generated_at": "2026-02-03T17:17:20.192Z"
 }
