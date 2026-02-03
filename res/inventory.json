@@ -1098,7 +1098,7 @@
           "end": "2019-01"
         },
         "timeline": "MVP in ~3 months",
-        "tech": ["IBM Hyperledger Fabric"],
+        "tech": ["IBM Hyperledger Fabric", "angular", "angular.js"],
         "description": "Car-buyer configures options (glass, tires, engine, etc.) and tracks build/customization progress with verifiable integrity, reducing reliance on dealer trust.",
         "bullets": [
           {
